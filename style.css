@@ -1,0 +1,260 @@
+
+/* Header */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+.head-link{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.head-nav{
+    margin-left: 5rem;
+    padding-left: 8rem;
+}
+#search {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5rem;
+    width: 200px;
+}
+.head-list {
+    display: flex;
+    align-items: center;
+}
+.list-link {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.login {
+    padding: 8px 16px;
+    background-color: #38419D;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.login:hover {
+    background-color: #0056b3;
+}
+/* Navbar */
+.sec-navbar {
+    background-color: #38419D;
+    padding: 10px 10px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent; 
+    transition: border-bottom 0.3s ease;
+}
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+/* Top Page */
+.top-list {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    background-color: #f0f0f0
+}
+/* Hero */
+.hero{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+   align-content: center;
+}
+.card1{
+    margin: 1em 0em ;
+    border: 2px solid  #f0f0f0;
+    border-radius: 5px;
+}
+.card-body1{
+    margin-left:2rem ;
+}
+
+.c-headings{
+    font-weight: 640;
+}
+
+.l{
+    margin: 3px 0px;
+}
+.filter-by{
+    margin: 1em 1em;
+
+}
+.f-heading,.status_heading{
+    margin: 20px 0px;
+}
+.pay-btn{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 12px;
+}
+.pay-btn:hover{
+    cursor: pointer;
+    color: rebeccapurple;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid rebeccapurple;
+}
+.rate-btn{
+    color: rebeccapurple;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 3px 12px;
+    
+}
+.rate-btn:hover{
+    cursor: pointer;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.filter-by{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
+.price_tag{
+    display: flex;
+}
+.price{
+    position: absolute;
+    background-color: rebeccapurple;
+    color: #fff;
+    margin: 10px ;
+    font-size: 0.8em;
+    border-radius: 10px;
+    padding: 2px 10px ;
+}
+.search_btn{
+    margin: 20px 0px ;
+    display: flex;
+   
+}
+.search_btn input{
+    background-color: rgb(255, 255, 255);
+    outline: 2px solid rgb(255, 255, 255);
+    border-radius: 0px;
+}
+.search_icon{
+    background-color: rebeccapurple;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px ;
+}
+.checks{
+  display: flex;
+  flex-wrap: wrap;
+}
+.check_box{
+    margin: 5px 0px  ;
+}
+img {
+
+    border-radius: 10px;
+}
+img:hover{
+        transition: all 0.1s ease;
+        scale: 1.1;
+        opacity: 0.8;
+}
+
+/* Hero End */
+/*Footer*/
+.footer{
+    background: #1F2544;
+}
+.foot-waatfy{
+    font-size: 40px;
+}
+.why{
+    font-size: 16px;
+    font-weight: 400;
+}
+.link{
+    font-size: 13px;
+    font-weight: 300;
+}
+span{
+    padding: 10px 10px 0px 0px;
+    font-size: 15px;
+}
+.card-title{
+    font-size: 15px;
+}
+.card{
+    background: #0F1035;
+}
+.card-img-top{
+    width: 60%;
+}
+
+/* Media query for screens smaller than 768px (tablets and below) */
+@media (max-width: 768px) {
+   .navbar{
+    flex-direction: column;
+   }
+   .login{
+    display: none;
+   }
+
+    #search {
+      display: none;
+    }
+    .sec-navbar{
+        display: none;
+    }
+  }
+
+@media (max-width: 1024px){
+    #search {
+        display: none;
+    }
+    .head-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+    }
+}
+  
+  
+
+
+
